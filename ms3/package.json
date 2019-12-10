@@ -1,0 +1,16 @@
+{
+  "name": "ms3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./src/index.js",
+    "docker": "docker build -t israelborba/ms3 . && docker push israelborba/ms3"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "restify": "^8.5.0"
+  }
+}
