@@ -5,6 +5,6 @@ server.get('/', (req, res, next) => {
   res.send('Hello MS 5')
 })
 
-server.listen(3000, () => {
+server.listen(process.env.port || 3000, () => {
   console.log('%s listening at http://localhost:3000', server.name)
 })
